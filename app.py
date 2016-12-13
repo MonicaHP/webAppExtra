@@ -9,7 +9,7 @@ urls=(
     '/(.*)','index'
     )
 
-db = web.database(dbn='mysql',db='peliculas',user='root',pw='1234')
+db = web.database(dbn='postgres', host='ec2-23-23-111-171.compute-1.amazonaws.com' , db='dei9ba2ltnl7hr',user='pezsraeegskepv',pw='41a57be28f709adc0a66deab194e16a8bdb58da346ce529f32d6bf18d1e7420a')
 
 clientes = clientes()
 clientes.readCliente()
