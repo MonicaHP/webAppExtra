@@ -1,0 +1,164 @@
+.clearfix:before,.clearfix:after,.container:before,.container:after{
+	display:table;
+	content: "";
+}
+.clearfix:after,.container:after{
+	clear: both;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+	padding: 0 15px;
+}
+.cabecera .logo{
+	float:left;
+	width:230px;
+	padding:10px 0;
+}
+
+.cabecera .menu{
+	float: right;
+}
+.cabecera .menu ul{
+	list-style:none;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.cabecera .menu ul li{
+	float: left;
+}
+.cabecera .menu ul li .b{
+	padding:0 15px;
+	display:block;
+	line-height:84px;
+}
+.cabecera .menu ul li .b:hover,.cabecera .menu ul li.active .b{
+	color: #fff;
+	box-shadow: 0 84px 0 rgb(0, 255, 160) inset;
+}
+
+input[type=text],input[type=password] , select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+table#tab1 {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table#tab1 th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+table#tab1 tr:nth-child(even){background-color: white}
+
+table#tab1 th{
+    background-color: rgb(0, 36, 72);
+    color: white;
+}
+
+table#tab2 {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table#tab2 th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+table#tab2 tr:nth-child(even){background-color: white}
+
+table#tab2 th{
+    background-color: rgb(0, 255, 153);;
+    color: white;
+}
+
+table#tabe {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table#tabe th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+table#tabe tr:nth-child(even){background-color: white}
+
+table#tabe th{
+    background-color: rgb(0, 255, 153);
+    color: white;
+}
+
+input[type=submit] {
+    width: 100%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-appearance: default-button;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+
+input[type=submit] {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 255, 153);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 255, 153);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.myButton {
+    width: 100%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+
+.myButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 36, 72);
+}
+
+.myButton:hover {
+    background-color: rgb(0, 36, 72);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

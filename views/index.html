@@ -1,0 +1,47 @@
+﻿$def with (form, results) 
+
+<br>
+<section>
+    <div>
+        <h1 align="center"> Renta de Peliculas </h1>
+    </div>
+</section>
+
+<br>
+
+<section>
+    <div align="center">
+    <form name="main" method="post" > 
+    $if not form.valid: <p class="error">Información erronea</p>
+    $:form.render()
+    </div>
+    <br>
+    <div>
+    <input type="submit" /> </form>
+    </div>
+</section>
+
+<br>
+
+<section>
+    <div>  
+    $if results:
+        <table id="tab1" align="center">
+            <th> Cliente </th> 
+            <th> Pelicula </th>
+            <th> Formato </th>
+            <th> Tiempo </th>
+            <th> Total </th>
+            $for row in results:
+                <tr>
+                    <td>$row.cliente</td>
+                    <td>$row.pelicula</td> 
+                    <td>$row.formato</td>  
+                    <td>$row.tiempo </td> 
+                    <td>$row.total </td>
+                </tr>
+        </table>
+    </div>
+</section>
+
+<br>

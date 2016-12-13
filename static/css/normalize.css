@@ -1,0 +1,117 @@
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #7d8781;
+  font-weight: 300;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+.b {
+  background: transparent;
+  text-decoration: none;
+}
+
+.b:active,
+.b:hover {
+  outline: 0; 
+  color: rgb(0, 255, 153);
+}
+.b:visited{
+  color: #505961;
+}
+
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: 400;
+}
+
+dfn {
+  font-style: italic;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;  
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+  color: #505961;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+  max-width: 200%;
+}
